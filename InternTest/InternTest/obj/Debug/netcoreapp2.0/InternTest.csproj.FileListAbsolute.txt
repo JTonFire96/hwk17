@@ -1,0 +1,11 @@
+C:\Users\Jordan Taylor\source\repos\InternTest\InternTest\obj\Debug\netcoreapp2.0\InternTest.csprojAssemblyReference.cache
+C:\Users\Jordan Taylor\source\repos\InternTest\InternTest\obj\Debug\netcoreapp2.0\InternTest.csproj.CoreCompileInputs.cache
+C:\Users\Jordan Taylor\source\repos\InternTest\InternTest\obj\Debug\netcoreapp2.0\InternTest.AssemblyInfoInputs.cache
+C:\Users\Jordan Taylor\source\repos\InternTest\InternTest\obj\Debug\netcoreapp2.0\InternTest.AssemblyInfo.cs
+C:\Users\Jordan Taylor\source\repos\InternTest\InternTest\bin\Debug\netcoreapp2.0\InternTest.deps.json
+C:\Users\Jordan Taylor\source\repos\InternTest\InternTest\bin\Debug\netcoreapp2.0\InternTest.runtimeconfig.json
+C:\Users\Jordan Taylor\source\repos\InternTest\InternTest\bin\Debug\netcoreapp2.0\InternTest.runtimeconfig.dev.json
+C:\Users\Jordan Taylor\source\repos\InternTest\InternTest\bin\Debug\netcoreapp2.0\InternTest.dll
+C:\Users\Jordan Taylor\source\repos\InternTest\InternTest\bin\Debug\netcoreapp2.0\InternTest.pdb
+C:\Users\Jordan Taylor\source\repos\InternTest\InternTest\obj\Debug\netcoreapp2.0\InternTest.dll
+C:\Users\Jordan Taylor\source\repos\InternTest\InternTest\obj\Debug\netcoreapp2.0\InternTest.pdb

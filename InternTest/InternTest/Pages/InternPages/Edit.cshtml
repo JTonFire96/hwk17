@@ -1,0 +1,21 @@
+﻿@page
+@model EditModel
+@{
+}
+<div>
+    <h2>Edit</h2>
+
+</div>
+<div>
+    <form method="post">
+        <input asp-for="Intern.ID" type="hidden" />
+        <input asp-for="Intern.InternName" type="text" placeholder="Intern Name" />
+        <span asp-validation-for="Intern.InternName"></span>
+        <input asp-for="Intern.InternLocation" type="text" placeholder="Intern Location" />
+        <span asp-validation-for="Intern.InternLocation"></span>
+        <input asp-for="Intern.InternCycle" type="text" placeholder="Intern Cycle" />
+        <span asp-validation-for="Intern.InternCycle"></span>
+        <input type="submit" value="Edit Intern" />
+        <a asp-page="Index">Back To Intern List </a>
+    </form>
+</div>

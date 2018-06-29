@@ -1,0 +1,66 @@
+﻿@page
+@model IndexModel
+@{
+    <h2>Check out this new page!</h2>
+    <div>
+        <a asp-page="Create">Add new Intern</a>
+
+    </div>
+    @if (Model.afterAddMessage != null)
+    {
+        <div>
+            @Model.afterAddMessage
+        </div>
+
+    }
+
+    <div>
+        @if (Model.myConnections.Count() > 0)
+        {
+            <form method="post">
+                <div>
+                    <table>
+                        <tr>
+                            <th>
+                                @Html.DisplayNameFor(m => m.myConnections.FirstOrDefault().InternName)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(m => m.myConnections.FirstOrDefault().InternLocation)
+                            </th>
+                            <th>
+                                @Html.DisplayNameFor(m => m.myConnections.FirstOrDefault().InternCycle)
+                            </th>
+                            <th>
+
+                            </th>
+                        </tr>
+                        @foreach (var item in Model.myConnections)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(m => item.InternName)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.InternLocation)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(m => item.InternCycle)
+                                </td>
+                                <td>
+                                    <a asp-page="Edit" asp-route-id="@item.ID">Edit</a>
+                                    <button asp-page-handler="Delete" asp-route-id="@item.ID">&times;</button>
+                                </td>
+                            </tr>
+                        }
+                    </table>
+                </div>
+            </form>
+
+        }
+        else
+        {
+            <p>No Interns currently </p>
+
+        }
+    </div>
+}
